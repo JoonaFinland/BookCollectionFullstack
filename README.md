@@ -59,6 +59,9 @@ npm start
 ### Notes
 
 Use webpack to simplify development by allowing live reloading.
-Disable automatically opening url, since the webpack opens the url too fast resulting in a connection error.
+
+Disabled automatically opening url, since the webpack opens the url too fast resulting in a connection error.
+
 Nodemon used to monitor changes in files to reload server.
+
 Concurrency package used to run the development command with two servers simultaneously.
